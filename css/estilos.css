@@ -2,9 +2,9 @@
 .nav-principal {
     list-style-type: none;
     margin: 0;
-    padding: 2;
+    padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #697624;
 }
 
 nav ul li{
@@ -25,62 +25,81 @@ nav ul li{
 #container {
     width: 100%;
     margin: 0px auto;
-    background-image: url("../images/bosque.jpg"); 
-    color: #ffffff;
+    color: #000000;
 }
-header{
-    background: #4cff29;
+#container1 {
+    background-image: url("../images/leon.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    width: 100%;
+    color: #ffffff;
+    height: 100%;
+}
+header {
+    background: #a2d71f;
     text-align: center;
+    font-style: oblique
 }
 .clearfix{
     clear:both;
 }
 .inf-general {
     width: 80%;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: justify;
 }
 footer{
-    background: #111;
+    background: #6c5b25;
     height: 70px;
+    color : white;
 }
-.descripcion-animal{
+.descripcion-animal {
     width: 80%;
-    font-size: 20px;
-}
-#containerI {
-    width: 100%;
-    margin: 0px auto;
+    font-size: 15px;
+    text-align: justify;
 
 }
 h1{
-    color: #111;
+    color: #000000;
+
 }
 tr:hover {
-    background-color: #808080;
+    background-color: #ffa400;
 }
 th {
     text-align: left;
 }
-table, th, td {
-    border: 1px solid;
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #798c87;
+    color: white;
 }
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+tr {
+   background-color: #f2f2f2;
+}
+
 .contacto {
     border-radius: 5px;
-    background-color: #333;
+    background-color: #798c87;
     padding: 20px;
-
 }
 input[type=text] {
     width: 50%;
-    padding: 12px 20px;
+    padding: 20px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 .btn {
-    border: 2px solid #000;
+    border: 1px solid #000;
     padding: 5px 20px;
     margin: 0 10px 5px;
-    background-color: #ccc;
     font-weight: bold;
     cursor: pointer;
     box-shadow: #333 5px 3px 2px;
@@ -90,7 +109,7 @@ input[type=text] {
     }
 
 .btn {
-    background-color: #2dea00;
+    background-color: #ffa400;
     color: #000;
 }
 img {
